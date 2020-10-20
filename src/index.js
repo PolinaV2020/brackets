@@ -1,5 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
-  var i, ch;
+ var i, ch;
 
     var bracketsMap = new Map();
     bracketsMap.set("]", "[");
@@ -29,4 +29,3 @@ module.exports = function check(str, bracketsConfig) {
     return temp.length === 0;
 };
 
-}
